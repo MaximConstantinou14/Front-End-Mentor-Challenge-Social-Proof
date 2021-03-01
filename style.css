@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Spartan' , sans-serif;
+    background-color: white;
+    font-size: 15px;
+    background-image: url(./images/bg-pattern-bottom-desktop.svg) , url(./images/bg-pattern-top-desktop.svg);
+    background-position: top right , left top;
+    background-repeat: no-repeat;
+}
+
+.title{
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    font-size: 40px;
+}
+
+.subtitle{
+    line-height: 1.5rem;
+}
+
+section{
+    width: 30rem;
+    margin: 5rem 5rem;
+}
+
+.top-section{
+    display: flex;
+}
+
+.reviews{
+    margin:5rem 5rem ;
+}
+
+.rate-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(300, 24%, 96%);
+    padding: 1rem 2.6rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.star{
+    margin: 5px;
+}
+
+.review-one{
+    margin: 0px 25px;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+}
+
+.rate-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(300, 24%, 96%);
+    padding: 1rem 2.6rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    margin-right: -2rem;
+    margin-left: 2rem;
+}
+
+.review-two{
+    margin: 0px 25px;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+}
+
+.rate-three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(300, 24%, 96%);
+    padding: 1rem 2.6rem;
+    border-radius: 5px;
+    margin-right: -4rem;
+    margin-left: 4rem;
+}
+
+.review-three{
+    margin: 0px 25px;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+}
+
+.card-one{
+    background-color: hsl(300, 43%, 22%);
+    height: 15rem;
+    width: 23rem;
+    margin:0rem 0rem 0rem 5rem ;
+    border-radius: 0.5rem;
+}
+
+.flex-one{
+    display: flex;
+}
+
+.colton-image{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 1.5rem;
+}
+
+.name-one{
+    margin: 1.5rem 1.5rem 0rem 1.5rem; 
+    color: white;
+}
+
+.verified-one{
+    margin: 0rem 0rem 0rem 1.5rem; 
+    color: hsl(333, 80%, 67%);
+}
+
+.description-one{
+    color: white;
+    margin:0rem 1.5rem;
+    line-height: 1.5rem;
+}
+
+.card-two{
+    background-color: hsl(300, 43%, 22%);
+    height: 15rem;
+    width: 23rem;
+    margin:1rem 3rem 0rem 3rem ;
+    border-radius: 0.5rem;
+}
+
+.flex-two{
+    display: flex;
+}
+
+.irene-image{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 1.5rem;
+}
+
+.name-two{
+    margin: 1.5rem 1.5rem 0rem 1.5rem; 
+    color: white;
+}
+
+.verified-two{
+    margin: 0rem 0rem 0rem 1.5rem; 
+    color: hsl(333, 80%, 67%);
+}
+
+.description-two{
+    color: white;
+    margin:0rem 1.5rem;
+    line-height: 1.5rem;
+}
+
+.card-three{
+    background-color: hsl(300, 43%, 22%);
+    height: 15rem;
+    width: 23rem;
+    margin:2rem 0rem 0rem 0rem ;
+    border-radius: 0.5rem;
+}
+
+.flex-three{
+    display: flex;
+}
+
+.anne-image{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 1.5rem;
+}
+
+.name-three{
+    margin: 1.5rem 1.5rem 0rem 1.5rem; 
+    color: white;
+}
+
+.verified-three{
+    margin: 0rem 0rem 0rem 1.5rem; 
+    color: hsl(333, 80%, 67%);
+}
+
+.description-three{
+    color: white;
+    margin:0rem 1.5rem;
+    line-height: 1.5rem;
+}
+
+.cards{
+    display: flex;
+    margin-top: -1rem;
+}
+
+.attribution{
+    margin:0rem 0rem 0rem 5rem;
+}
+
