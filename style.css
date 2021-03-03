@@ -205,3 +205,96 @@ section{
     margin:0rem 0rem 0rem 5rem;
 }
 
+@media only screen and (max-width: 375px) {
+
+    body{
+        display: flex;
+        flex-direction: column;
+        background-image: url(./images/bg-pattern-top-mobile.svg);
+        background-position: top left;
+        background-repeat: no-repeat;
+        background-size:35rem;
+    }
+
+    section{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 5rem 0rem;
+    }
+
+    .subtitle{
+        font-size: 1rem;
+        margin: 1rem 3.2rem;
+    }
+
+    .reviews{
+        display: flex;
+        flex-direction: column;
+        margin:1rem 1rem ;
+    }
+
+    .review-one{
+        text-align: center;
+    }
+
+    .rate-one{
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem 3.1rem;
+        margin-left: 2.5rem;
+        margin-right: -3.5rem;
+    }
+
+    .review-two{
+        text-align: center;
+    }
+
+    .rate-two{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 3rem;
+        margin-left: 2.5rem;
+        margin-right: -3.5rem;
+    }
+
+    .review-three{
+        text-align: center;
+    }
+
+    .rate-three{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 5rem;
+        margin-left: 2.5rem;
+        margin-right: -3.5rem;
+    }
+    
+    .top-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;  
+    }
+
+    .card-one{
+        margin:3rem 0rem 0rem 3.5rem ;
+    }
+
+    .card-two{
+        margin:1rem 0rem 0rem 3.5rem ;
+    }
+
+    .card-three{
+        margin:1rem 0rem 0rem 3.5rem ;
+    }
+
+    .attribution{
+        margin:1rem 0rem 0rem 0rem;
+        text-align: center;
+        margin-left: 6rem;
+    }
+}
